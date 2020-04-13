@@ -1,0 +1,55 @@
+body{
+    font-family: arial,sans-serif;
+    font-size:small;
+}
+#fbar{
+    background:#f2f2f2;
+    line-height:40px;
+    min-width:980px;
+    border-top:1px solid #e4e4e4;
+    bottom:0;
+    left:0;
+    position:relative;
+    right:0;
+    width:100%;
+    font-size:14px;
+    color:rgba(0,0,0,.54);
+}
+#fbar a{
+    text-decoration:none;
+    color:#5f6368;
+    display:inline-block;
+    padding-left:27px;
+    margin:0 !important;
+    cursor:pointer;
+    white-space:nowrap;
+    
+}
+#fbar a:hover{
+    text-decoration:none;
+    color:#333;
+}
+#fbar a:visited{
+    color:#5f6368;
+}
+#fbar a:active{
+    color:#dd4b39;
+}
+#loc-bar{
+    border-bottom:1px solid #e4e4e4;
+    text-align:left;
+    color:rgba(0,0,0,.54);
+    padding-left:27px;
+    font-size:15px;
+    
+}
+#loc-fix{
+    margin-left:180px;
+}
+#foot-left{
+    white-space: nowrap;
+    margin-left:180px;
+}
+.low-fix{
+    margin-left:-27px;
+}

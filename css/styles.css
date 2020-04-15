@@ -2,6 +2,69 @@ body{
     font-family: arial,sans-serif;
     font-size:small;
 }
+#centre-col{
+    margin-left:180px;
+    margin-right:264px;
+    position:relative;
+    width:652px;
+}
+#nav-table{
+    width:652px;
+    visibility:visible;
+    
+}
+#table{
+    border-collapse:collapse;
+    margin:30px auto 30px;
+    text-align:center;
+}
+#table a{
+    color:#4285f4;
+    text-decoration: none;
+    font-size:14px;
+}
+#table a:hover{
+    color:#4285f4;
+    text-decoration: underline;
+    cursor:pointer;
+}
+#G{
+    width:28px;
+    background:url(https://www.google.com/images/nav_logo299_hr.webp) no-repeat;
+    background-position: -24px 0;
+    background-size: 167px;
+    height:40px;
+    display:block;
+}
+#first-o{
+    color:rgba(0,0,0,.87);
+    font-weight:normal
+}
+#O{
+    background:url(https://www.google.com/images/nav_logo299_hr.webp) no-repeat;
+    background-position:-53px 0;
+    background-size:167px;
+    width:20px;
+    display:block;
+    height:40px;
+}
+#o-seq{
+    background:url(https://www.google.com/images/nav_logo299_hr.webp) no-repeat;
+    background-position:-74px 0;
+    background-size:167px;
+    width:20px;
+    display:block;
+    height:40px;
+}
+#gle-cnt{}
+#gle{
+    background:url(https://www.google.com/images/nav_logo299_hr.webp) no-repeat;
+    background-position:-96px 0;
+    background-size:167px;
+    width:71px;
+    display:block;
+    height:40px;
+}
 #fbar{
     background:#f2f2f2;
     line-height:40px;
